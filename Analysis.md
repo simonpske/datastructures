@@ -25,5 +25,8 @@ O(M log M) as we apply here a sort algorithm of the values found.
 
 ## Task4
 
-O(N + M + K) (for storing texts, calls, and unique numbers)
+of course here again we have the complexity for the files O(n+m). The subsequent iterations follow into an O(n)
+complexity. For the checking of the telemarketeers we are again in an 0(n) complexity. Sorting and printing then
+leads to an O(n log n) time complexity. The final complexity approximation can then be identified as
+o(n log n + m) 
 
